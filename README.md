@@ -1,29 +1,52 @@
-# DSA-Assignment
-DSA Assignments - IIITDM Jabalpur
-Python coursework covering programming basics, algorithm analysis, recursion, and data structures.
+# DSA Assignments – IIITDM Jabalpur
 
-Name: Pankhudi Singh
+Python-based coursework focused on programming fundamentals, algorithm analysis, recursion, and essential data structures.
 
-Roll No.: 25BEC074
+**Name:** Pankhudi Singh
 
-Assignments
-File	Topics
-Assignment1.ipynb	Python basics, collections, strings, functions, file handling, exception handling, GPA calculator, and student records
-Assignment-2.py	Algorithm growth rates, execution-time benchmarks, and quadratic versus linear prefix averages
-Assignment-3.py	Recursive factorial, natural-number sum, power, sorted-order checking, stack, circular queue, and circular deque
-The assignment reference PDFs are included in the repository.
+**Roll No.:** 25BEC074
 
-Running the code
-Use Python 3. Assignment 2 requires Matplotlib, and Assignment 1 requires Jupyter Notebook or an editor with notebook support.
+## Assignments
 
-Install the dependencies:
+| **File** | **Topics Covered** |
+|---|---|
+| [Assignment1.ipynb](https://github.com/tiwarimanit4u-glitch/DSA-Assignment-IIITDMJ/blob/main/Assignment1.ipynb) | Python fundamentals, collections, string operations, functions, file operations, exception handling, GPA calculation, and student record management. |
+| [Assignment-2.py](https://github.com/tiwarimanit4u-glitch/DSA-Assignment-IIITDMJ/blob/main/Assignment-2.py) | Analysis of algorithm growth rates, runtime comparisons, performance benchmarking, and linear vs. quadratic prefix average methods. |
+| [Assignment-3.py](https://github.com/tiwarimanit4u-glitch/DSA-Assignment-IIITDMJ/blob/main/Assignment-3.py) | Recursive implementations of factorial, sum of natural numbers, power calculation, sorted sequence verification, stacks, circular queues, and circular deques. |
 
+Reference PDFs for the assignments are also available in the repository.
+
+## How to Run
+
+Make sure Python 3 is installed on your system. Assignment 2 uses Matplotlib for plotting, while Assignment 1 requires Jupyter Notebook or a compatible notebook editor.
+
+**Install the required packages:**
+
+```bash
 python -m pip install matplotlib notebook
-Run the scripts from the repository folder:
+```
 
+**Execute the Python scripts:**
+
+```bash
 python Assignment-2.py
 python Assignment-3.py
-To open Assignment 1:
+```
 
+**Launch Assignment 1:**
+
+```bash
 python -m notebook Assignment1.ipynb
-Run the notebook cells in order and enter input when prompted. Choose option 6 to exit the student-record menu.
+```
+
+Open the notebook and execute the cells sequentially. Provide inputs wherever prompted. In the student record management menu, select option `6` to exit.
+
+## Performance Benchmark Graphs
+
+Assignment 2 performs execution-time comparisons and generates the following plots in the working directory:
+
+- [lab1_execution_times.png](https://github.com/tiwarimanit4u-glitch/DSA-Assignment-IIITDMJ/blob/main/lab1_execution_times.png) – Displays the execution times of six different algorithmic growth categories.
+- [lab1_normalized_times.png](https://github.com/tiwarimanit4u-glitch/DSA-Assignment-IIITDMJ/blob/main/lab1_normalized_times.png) – Shows normalized execution times using `n`, `n²`, and `n log₂(n)`.
+- [lab2_prefix_averages.png](https://github.com/tiwarimanit4u-glitch/DSA-Assignment-IIITDMJ/blob/main/lab2_prefix_averages.png) – Illustrates the performance difference between the two prefix-average approaches.
+
+Each benchmark is executed seven times, with the median execution time used for reporting. Actual results may differ depending on the system configuration and background processes.
